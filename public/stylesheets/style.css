@@ -48,7 +48,7 @@ header {
     width: 100%;
     min-height: 100lvh;
     height: auto;
-    background-image: url(images/bg-main-secondary.svg), url(images/bg-main.png);
+    background-image: url(../images/bg-main-secondary.svg), url(../images/bg-main.png);
     background-size: auto, cover;
     background-repeat: no-repeat;
     background-attachment: local;
@@ -67,7 +67,7 @@ header {
 
 
 .bar1, .bar2, .bar3 {
-    background-image: url(images/menu_bar.svg);
+    background-image: url(../images/menu_bar.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 85%;
@@ -228,7 +228,7 @@ section {
 
 .about {
     position: relative;
-    background-image: url(images/shape-about.png), url(images/bg-about.png);
+    background-image: url(../images/shape-about.png), url(../images/bg-about.png);
     background-position: calc(100% - 30vw) center, center;
     background-repeat: no-repeat;
     background-size: 80vw, cover;
@@ -289,7 +289,7 @@ h2 {
 /* --------- HISTORY SECTION --------- */
 
 .history {
-    background-image: url(images/shape_right.png), url(images/bg-history.png);
+    background-image: url(../images/shape_right.png), url(../images/bg-history.png);
     background-repeat: no-repeat;
     background-size: contain, cover;
     background-attachment: local, fixed;
@@ -342,7 +342,7 @@ h2 {
 } 
 
 #barracs_link {
-    background-image: url(images/kas610.jpg);
+    background-image: url(../images/kas610.jpg);
 }
 
 #barracs_link::before {
@@ -350,7 +350,7 @@ h2 {
 }
 
 #chemical_link {
-    background-image: url(images/mist.jpg);
+    background-image: url(../images/mist.jpg);
 }
 
 #chemical_link::before {
@@ -358,7 +358,7 @@ h2 {
 }
 
 #lbc_link {
-    background-image: url(images/lbc_link.jpg);
+    background-image: url(../images/lbc_link.jpg);
 }
 
 #lbc_link::before {
@@ -391,7 +391,7 @@ h4 {
 /* --------- CAREER SECTION --------- */
 
 .career {
-    background-image: url(images/bg-career.png);
+    background-image: url(../images/bg-career.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -452,7 +452,7 @@ h4 {
 
 .career_swiperItem {
     /* width: auto; */
-    background-image: url(images/career_shape.png);
+    background-image: url(../images/career_shape.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -501,7 +501,7 @@ h4 {
 /* --------- GALLERY SECTION --------- */
 
 .gallery {
-    background-image: url(images/bg-gallery.png);
+    background-image: url(../images/bg-gallery.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -624,7 +624,7 @@ swiper-container {
     align-items: center;
     gap: 4rem;
     position: relative;
-    background-image: url(images/footer-bg.svg);
+    background-image: url(../images/footer-bg.svg);
     background-color: #1a1e12;
     background-position: center;
     background-repeat: no-repeat;
@@ -727,7 +727,7 @@ swiper-container {
     /* --------- MAIN PAGE - HEADER - queries 1000px --------- */
 
     header {
-        background-image: url(images/bg-main-secondary-mobile.svg), url(images/bg-main-mobile.png);
+        background-image: url(../images/bg-main-secondary-mobile.svg), url(../images/bg-main-mobile.png);
         background-size: 130% auto, cover;
         background-attachment: local;
         background-position: center top, center top;
@@ -853,7 +853,7 @@ swiper-container {
 
     .about {
         padding-bottom: 5rem;
-        background-image: url(images/shape-about-mobile.svg), url(images/bg-about.png);
+        background-image: url(../images/shape-about-mobile.svg), url(../images/bg-about.png);
         background-size: 130vw, cover;
         background-position: top center, center;
     }
@@ -872,7 +872,7 @@ swiper-container {
     /* --------- HISTORY SECTION - queries --------- */
 
     .history {
-        background-image: url(images/shape-about.png), url(images/bg-history.png);
+        background-image: url(../images/shape-about.png), url(../images/bg-history.png);
         background-size: auto,cover;
         background-position: center top -1rem;
     }

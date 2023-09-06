@@ -11,7 +11,7 @@
 }
 
 .fb-ig {
-    background: url(images/socials-fb-ig.svg) center no-repeat;
+    background: url(../images/socials-fb-ig.svg) center no-repeat;
 }
 
 .about_socials_container {
@@ -21,7 +21,7 @@
 }
 
 .wiki-yt {
-  background: url(images/socials-wiki-yt.svg) center no-repeat;
+  background: url(../images/socials-wiki-yt.svg) center no-repeat;
   top: 5vh;
   right: 15vw;
 }
