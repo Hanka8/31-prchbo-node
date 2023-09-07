@@ -109,6 +109,17 @@
         <p class="career_text">Volná místa u 31. pluku</p>
          
         <swiper-container id="swiperCareer" class="mySwiper" pagination="true" pagination-clickable="true" space-between="30" slides-per-view="3">
+        
+          <% for (let i = 0; i < jobNames.length; i++) { %>
+            <swiper-slide class="career_swiperItem job">
+              <div class="swiperItem_header">
+                <p class="swiperItem_position"><%= jobNames[i] %></p>
+                <img class="swiperItem_rank" src=<%=`images/hodnosti/${(ranks[i][1]) ? ranks[i][1] : ranks[i][0]}.svg` %> alt="hodnost">
+              </div>
+              <p class="swiperItem_description"><%= jobDescriptions[i] %></p>
+            </swiper-slide>
+          <% } %>
+        
         </swiper-container>
   
     </section>
@@ -121,28 +132,6 @@
     <iframe src="https://snapwidget.com/embed/1038958" class="snapwidget-widget" allowtransparency="true" frameborder="0"
       scrolling="no" style="border:none; overflow:hidden;">
     </iframe>
-
-        <!-- <swiper-container id="swiperContainer1" style="--swiper-navigation-color: #A3BA3D; --swiper-pagination-color: #fff" class="mySwiper"
-    thumbs-swiper=".mySwiper2" space-between="10" navigation="true">
-
-      rendering images from javascript dynamically
-      
-      adding new image to gallery: 
-            add into images/gallery folder
-              add file name into galleryImgs array in gallery.js file
-
-    </swiper-container>
-
-  <swiper-container id="swiperContainer2" class="mySwiper2" space-between="10" slides-per-view="4" free-mode="true"
-    watch-slides-progress="true">
-
-    rendering images from javascript dynamically
-
-    adding new image to gallery: 
-            add into images/gallery folder
-              add file name into galleryImgs array in gallery.js file
-    
-  </swiper-container> -->
 
   </section>
 

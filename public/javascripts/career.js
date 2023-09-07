@@ -60,46 +60,46 @@ function handleScreenWidth() {
 window.addEventListener("resize", handleScreenWidth);
 
 
+
+
 const swiperCareer = document.getElementById("swiperCareer");
 
 let jobsContainer = document.querySelector(".mySwiper");   
 
-window.addEventListener("load", () => {
+// window.addEventListener("load", () => {
 
-   
+//     data.positions.map((job, jobsIndex) => {
 
-    data.positions.map((job, jobsIndex) => {
+//       const swiperSlide = document.createElement("swiper-slide");
+//       swiperSlide.className = "career_swiperItem job";
 
-      const swiperSlide = document.createElement("swiper-slide");
-      swiperSlide.className = "career_swiperItem job";
+//       const swiperItemHeader = document.createElement("div");
+//       swiperItemHeader.className = "swiperItem_header";
 
-      const swiperItemHeader = document.createElement("div");
-      swiperItemHeader.className = "swiperItem_header";
+//       const swiperItemPosition = document.createElement("p");
+//       swiperItemPosition.className = "swiperItem_position";
+//       swiperItemPosition.textContent = data.positions[jobsIndex].name;
 
-      const swiperItemPosition = document.createElement("p");
-      swiperItemPosition.className = "swiperItem_position";
-      swiperItemPosition.textContent = data.positions[jobsIndex].name;
-
-      const swiperItemRank = document.createElement("img");
-      swiperItemRank.className = "swiperItem_rank";
-      swiperItemRank.src = `images/hodnosti/${data.positions[jobsIndex].rank}.svg`;
+//       const swiperItemRank = document.createElement("img");
+//       swiperItemRank.className = "swiperItem_rank";
+//       swiperItemRank.src = `images/hodnosti/${data.positions[jobsIndex].rank}.svg`;
 
 
-      const positionDescription = document.createElement("p");
-      positionDescription.className = "swiperItem_description";
-      positionDescription.textContent = `${data.positions[jobsIndex].description1}
-                                         ${data.positions[jobsIndex].description2}
-                                         ${data.positions[jobsIndex].description3}`
+//       const positionDescription = document.createElement("p");
+//       positionDescription.className = "swiperItem_description";
+//       positionDescription.textContent = `${data.positions[jobsIndex].description1}
+//                                          ${data.positions[jobsIndex].description2}
+//                                          ${data.positions[jobsIndex].description3}`
 
-      swiperItemHeader.appendChild(swiperItemPosition);
-      swiperItemHeader.appendChild(swiperItemRank);
-      swiperSlide.appendChild(swiperItemHeader);
-      swiperSlide.appendChild(positionDescription);
+//       swiperItemHeader.appendChild(swiperItemPosition);
+//       swiperItemHeader.appendChild(swiperItemRank);
+//       swiperSlide.appendChild(swiperItemHeader);
+//       swiperSlide.appendChild(positionDescription);
 
-      jobsContainer.appendChild(swiperSlide);
+//       jobsContainer.appendChild(swiperSlide);
 
-    });
-});
+//     });
+// });
 
 
 
